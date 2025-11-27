@@ -19,7 +19,7 @@ const Row = ({ title, fetchUrl }) => {
 
   const handleClick = (movie) => {
     if (trailerUrl) {
-      setTrailerUrl(""); // close trailer if already opened
+      setTrailerUrl(""); 
     } else {
       movieTrailer(movie?.title || movie?.name || "")
         .then((url) => {
