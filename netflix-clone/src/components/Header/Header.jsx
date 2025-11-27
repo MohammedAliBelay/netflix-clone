@@ -13,6 +13,7 @@ const Header = () => {
           <p>Movies</p>
           <p>New & Popular</p>
           <p>My List</p>
+          <p>Browse by Languages</p>
         </div>
       </div>
       <div className="right">
