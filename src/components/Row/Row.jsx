@@ -32,7 +32,7 @@ const Row = ({ title, fetchUrl }) => {
 
   const opts = {
     height: "390",
-    width: "100%",
+    width: "50%",
     playerVars: {
       autoplay: 1,
     },
